@@ -1,0 +1,49 @@
+{
+  "name": "n3ater-graphql",
+  "version": "1.0.0",
+  "description": "The return of N3ATer, it doesn't get any neater than this...",
+  "main": "index.js",
+  "engines": {
+    "node": "10.11.0"
+  },
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "cross-env PRODUCTION=false nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [
+    "Evony",
+    "LKD70",
+    "N3ATer",
+    "NEAT",
+    "NEATO",
+    "NEATer"
+  ],
+  "author": "LKD70 (lkdornan70@gmail.com)",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.3",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.6.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "apollo-server": "^2.2.3",
+    "apollo-server-express": "^2.2.3",
+    "bcrypt": "^3.0.2",
+    "cors": "^2.8.5",
+    "dataloader": "^1.4.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-resolvers": "^0.3.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.14",
+    "validator": "^10.9.0"
+  }
+}
